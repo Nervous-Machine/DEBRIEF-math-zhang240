@@ -22,8 +22,10 @@ referee report. This record does not call the bound a theorem.
    `admissible 49-tuple diameter: 240`, exit 0. Log: `checks/logs/quick.log`.
 4. **C3, our own tuple check.** `checks/admissible.py` (written for this mission) read the 49-tuple from the
    certificate file: 49 distinct integers, diameter 240, a missed residue class for every prime up to 47.
-5. **C4, full exact reconstruction**, `verify.py --full` in a fresh virtual environment inside the VM. Its outcome
-   is in `checks/results.json` and `checks/logs/full.log` when complete; the ledger says "running" until then.
+5. **C4, full exact reconstruction**, `verify.py --full` in a fresh virtual environment inside the VM with
+   `python-flint==0.9.0` from the stock wheel: every stored quantity recomputed without a cache, final line
+   `full exact reconstruction: PASS`, exit 0, 50 minutes 12 seconds on 20 cores, peak memory about 36 GB. Log:
+   `checks/logs/full.log`.
 6. **C5, paper.** The PDF's md5 matches the hash Zenodo publishes.
 
 Predictions and outcomes are compared in `checks/results.json`; misses, if any, are listed there and in the cycle.

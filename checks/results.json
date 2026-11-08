@@ -119,8 +119,16 @@
   "checker": "checks/admissible.py (Nervous Machine's own code)"
  },
  "C4": {
-  "status": "running",
-  "last_line": "marginal square degree 48/60: 19609 signature pairs",
+  "status": "done",
+  "final_line": "full exact reconstruction: PASS",
+  "final_line_matches": true,
+  "exit_status": 0,
+  "wall": "50:12.34",
+  "max_rss_mb": 37341.5,
+  "installed": [
+   "python-flint==0.9.0"
+  ],
+  "pass": true,
   "log": "logs/full.log"
  },
  "C5": {
@@ -134,8 +142,6 @@
   "vm": "Lima 'primegaps', aarch64, 20 cores, 98 GB, Ubuntu, CPython 3.14.4 (quick) / venv with requirements-full.txt (full)",
   "host_execution_of_downloaded_code": false
  },
- "all_pass": false,
- "misses": [
-  "C4"
- ]
+ "all_pass": true,
+ "misses": []
 }

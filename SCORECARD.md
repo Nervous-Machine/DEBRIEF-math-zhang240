@@ -1,12 +1,12 @@
 # The claim that primes come within 240 of each other infinitely often (Zhang)
 
-On August twenty eighth, 2026, Hanxin Zhang proved that infinitely many pairs of consecutive primes differ by at most two hundred and forty, with the discovery credited to the model GPT 5.6 Sol, improving the published record of two hundred and forty six. The proof has two parts: an analytic argument written in the paper, and an exact finite certificate anyone can rerun. Nervous Machine reran the certificate on its own machine under a rule written first. The quick check passed and the forty-nine-number list is admissible by our own check. The full exact reconstruction is still running; its result is not in this record. What is open is the analytic argument: it has no formal deduction and no referee report. My read: conditionally supported, with the certificate independently reproduced; not yet settled.
+On August twenty eighth, 2026, Hanxin Zhang proved that infinitely many pairs of consecutive primes differ by at most two hundred and forty, with the discovery credited to the model GPT 5.6 Sol, improving the published record of two hundred and forty six. The proof has two parts: an analytic argument written in the paper, and an exact finite certificate anyone can rerun. Nervous Machine reran the certificate on its own machine under a rule written first. The quick check and the full reconstruction both passed, and the forty-nine-number list is admissible by our own check. What is open is the analytic argument: it has no formal deduction and no referee report. My read: conditionally supported, with the certificate independently reproduced; not yet settled.
 
 _Rendered from the briefing record. Items marked internal in the ledger (how the framework works, the state of the record) stay in `ledger.json` and are not shown here._
 
 Record quality: reconstructed. Replayed from the public record, dated by first public posting; Nervous Machine's own checks were registered before any file was fetched.
 
-**Standing.** Certified 2. Accepted 1. Refuted 0. Open gaps 3. An open gap is an input or question nobody has settled; it is not a finding and has no standing.
+**Standing.** Certified 3. Accepted 1. Refuted 0. Open gaps 3. An open gap is an input or question nobody has settled; it is not a finding and has no standing.
 
 ## Findings
 
@@ -14,6 +14,7 @@ Record quality: reconstructed. Replayed from the public record, dated by first p
 |---|---|---|---|---|
 | Z1 | learned | **certified** | checked by direct computation under a rule written down first, on the tuple read from the pinned certificate file | 1 |
 | Z2 | learned | **certified** | an exact-arithmetic check rerun by a party independent of the author, under a rule written first | 1 |
+| Z3 | learned | **certified** | an exact-arithmetic reconstruction rerun by a party independent of the author, under a rule written first | 1 |
 | Z4 | learned | **accepted** | Maynard's estimates are published, refereed results; the new combination is the paper's own argument and is a gap, not a finding | 0 |
 
 ## Cycles, in order
@@ -21,7 +22,7 @@ Record quality: reconstructed. Replayed from the public record, dated by first p
 | cycle | dated | by | kind | written first | verdict |
 |---|---|---|---|---|---|
 | 0 | 2026-08-28 |  | replay | no | admitted |
-| 1 | 2026-11-08 | Nervous Machine (Heidi Bennett; Claude Code as the operating agent) | rerun | yes | mixed |
+| 1 | 2026-11-08 | Nervous Machine (Heidi Bennett; Claude Code as the operating agent) | rerun | yes | confirmed |
 
 ## Gaps, in the order that would settle things fastest
 
