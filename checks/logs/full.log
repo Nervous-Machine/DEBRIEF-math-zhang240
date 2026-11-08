@@ -1,0 +1,90 @@
+python-flint==0.9.0
+certificate: PASS
+coefficient arrays: 4910 source, 5825 marginal
+event manifest: 45 rank rows, 476 rank cells, 5 skeleton events, 1 radial event
+exponent substitutions: 13/13 positive
+retained quotient > threshold: True
+packing budget margin > 0: True
+physical first-moment ratio > 1: True
+admissible 49-tuple diameter: 240
+source degree 0: PASS
+source degree 2: PASS
+source degree 4: PASS
+source degree 6: PASS
+source degree 8: PASS
+source degree 10: PASS
+source degree 12: PASS
+source degree 14: PASS
+source degree 16: PASS
+source degree 18: PASS
+source degree 20: PASS
+source degree 22: PASS
+source degree 24: PASS
+source degree 26: PASS
+source degree 28: PASS
+source degree 30: PASS
+source degree 32: PASS
+source degree 34: PASS
+source degree 36: PASS
+source degree 38: PASS
+source degree 40: PASS
+source degree 42: PASS
+source degree 44: PASS
+source degree 46: PASS
+source degree 48: PASS
+source degree 50: PASS
+source degree 52: PASS
+source degree 54: PASS
+source degree 56: PASS
+source degree 58: PASS
+source degree 60: PASS
+source norm: PASS
+marginal diagonals 250/5458
+marginal diagonals 500/5458
+marginal diagonals 750/5458
+marginal diagonals 1000/5458
+marginal diagonals 1250/5458
+marginal diagonals 1500/5458
+marginal diagonals 1750/5458
+marginal diagonals 2000/5458
+marginal diagonals 2250/5458
+marginal diagonals 2500/5458
+marginal diagonals 2750/5458
+marginal diagonals 3000/5458
+marginal diagonals 3250/5458
+marginal diagonals 3500/5458
+marginal diagonals 3750/5458
+marginal diagonals 4000/5458
+marginal diagonals 4250/5458
+marginal diagonals 4500/5458
+marginal diagonals 4750/5458
+marginal diagonals 5000/5458
+marginal diagonals 5250/5458
+exact marginal and rounding bound: PASS
+marginal square degree 0/60: 1 signature pairs
+marginal square degree 2/60: 1 signature pairs
+marginal square degree 4/60: 3 signature pairs
+marginal square degree 6/60: 5 signature pairs
+marginal square degree 8/60: 11 signature pairs
+marginal square degree 10/60: 18 signature pairs
+marginal square degree 12/60: 34 signature pairs
+marginal square degree 14/60: 55 signature pairs
+marginal square degree 16/60: 95 signature pairs
+marginal square degree 18/60: 150 signature pairs
+marginal square degree 20/60: 244 signature pairs
+marginal square degree 22/60: 376 signature pairs
+marginal square degree 24/60: 588 signature pairs
+marginal square degree 26/60: 885 signature pairs
+marginal square degree 28/60: 1340 signature pairs
+marginal square degree 30/60: 1978 signature pairs
+marginal square degree 32/60: 2691 signature pairs
+marginal square degree 34/60: 3707 signature pairs
+marginal square degree 36/60: 4986 signature pairs
+marginal square degree 38/60: 6583 signature pairs
+marginal square degree 40/60: 8509 signature pairs
+marginal square degree 42/60: 10845 signature pairs
+marginal square degree 44/60: 13470 signature pairs
+marginal square degree 46/60: 16476 signature pairs
+marginal square degree 48/60: 19609 signature pairs
+marginal square degree 50/60: 22729 signature pairs
+marginal square degree 52/60: 25402 signature pairs

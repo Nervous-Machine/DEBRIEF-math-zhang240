@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "DEBRIEF-math-zhang240: pre-registered independent rerun of Hanxin Zhang's exact certificate for lim inf prime gaps <= 240"
+message: "Cite this record by version. Contributors of record are listed as authors; each is credited for the cycles they contributed."
+type: dataset
+version: 0.1.0
+date-released: 2026-11-08
+license: CC-BY-4.0
+repository-code: https://github.com/Nervous-Machine/DEBRIEF-math-zhang240
+authors:
+  - family-names: Bennett
+    given-names: Heidi
+    affiliation: Nervous Machine
+    # cycle 1 (pre-registration, checks C1-C5), with Claude Code as the operating agent

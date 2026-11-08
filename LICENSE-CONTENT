@@ -1,0 +1,6 @@
+Ledger text (ledger/), the scorecard, the asks page and other prose in this repository are licensed under Creative
+Commons Attribution 4.0 International (CC-BY-4.0): https://creativecommons.org/licenses/by/4.0/
+
+Code written for this mission (checks/*.py, checks/*.sh) is licensed under Apache-2.0 (see LICENSE). Nothing from
+github.com/hanxinzhang/prime-bound is vendored here: that repository states no licence, so this mission records
+its commit, file hashes and a fetch script only. The paper (Zenodo 10.5281/zenodo.22135842) is CC-BY-4.0.

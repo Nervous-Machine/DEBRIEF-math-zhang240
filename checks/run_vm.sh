@@ -3,7 +3,7 @@
 # usage: run_vm.sh SRC_DIR quick|full      SRC_DIR is the isolated host directory written by fetch.py.
 set -euo pipefail
 SRC="$1"; MODE="$2"; HERE="$(cd "$(dirname "$0")" && pwd)"
-VMDIR="/home/$(limactl shell primegaps -- whoami | tr -d '\r')/zhang240"
+VMDIR="$(limactl shell primegaps -- bash -lc 'echo $HOME' | tr -d '\r')/zhang240"
 limactl shell primegaps -- bash -lc "rm -rf '$VMDIR' && mkdir -p '$VMDIR'"
 limactl copy -r "$SRC/." "primegaps:$VMDIR/"
 if [ "$MODE" = quick ]; then
