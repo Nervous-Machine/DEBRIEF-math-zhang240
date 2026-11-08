@@ -1,0 +1,113 @@
+{
+ "repo": "github.com/hanxinzhang/prime-bound",
+ "commit": "2319570b0056676537190512f20af80d3a7b72a7",
+ "files": {
+  "README.md": {
+   "bytes": 7308,
+   "expected_bytes": 7308,
+   "size_ok": true,
+   "sha256": "407c4ff2ef1af9fbffee1ab0130015ad197353ba4bc4ffc411f93c33a1dacc7d"
+  },
+  "data/certificate.json": {
+   "bytes": 295566,
+   "expected_bytes": 295566,
+   "size_ok": true,
+   "sha256": "d99e5d7cdbde22de3d544970b746e476ca65db0dfdab831fed2c134d7e91b6f5"
+  },
+  "data/event_cells.json": {
+   "bytes": 1421597,
+   "expected_bytes": 1421597,
+   "size_ok": true,
+   "sha256": "05c8b4d63f02aa3ec97cea8d630b4ca90f3f0632a011f934a23291c2175343d9"
+  },
+  "data/source_polynomial.json": {
+   "bytes": 537094,
+   "expected_bytes": 537094,
+   "size_ok": true,
+   "sha256": "82fcf5d43ac5e9afa64f93970924216f3aab48a17cab612d6383725e0d4cc10c"
+  },
+  "data/stored_marginal.json": {
+   "bytes": 614291,
+   "expected_bytes": 614291,
+   "size_ok": true,
+   "sha256": "f9b5bbdc62c7d8858c4e2f7db996cdfde870d9158f330d2dd33d2b10551ec448"
+  },
+  "requirements-full.txt": {
+   "bytes": 20,
+   "expected_bytes": 20,
+   "size_ok": true,
+   "sha256": "4cef508304e84c21f73cf412712165dc26e40978cb784bc08a876948b559d90d"
+  },
+  "src/exact_core.py": {
+   "bytes": 14802,
+   "expected_bytes": 14802,
+   "size_ok": true,
+   "sha256": "73fcb077aba24ce0fc4c0f3f351664634ee49c427f2736707b9641c9996eb08e"
+  },
+  "src/full_verify.py": {
+   "bytes": 19234,
+   "expected_bytes": 19234,
+   "size_ok": true,
+   "sha256": "56612a92f77a79880b4b0cee6f9214078f6b206ed70a6bc193400394c4f9fa37"
+  },
+  "verify.py": {
+   "bytes": 16985,
+   "expected_bytes": 16985,
+   "size_ok": true,
+   "sha256": "7b4942138400ecf196418d44dbb8eb8f60b0b13a83b5956dbdda6d20bdc2035e"
+  }
+ },
+ "imports": {
+  "verify.py": {
+   "modules": [
+    "__future__",
+    "argparse",
+    "fractions",
+    "full_verify",
+    "json",
+    "math",
+    "pathlib",
+    "sys",
+    "typing"
+   ],
+   "non_stdlib": []
+  },
+  "src/exact_core.py": {
+   "modules": [
+    "__future__",
+    "collections",
+    "dataclasses",
+    "flint",
+    "fractions",
+    "functools",
+    "math",
+    "typing"
+   ],
+   "non_stdlib": [
+    "flint"
+   ]
+  },
+  "src/full_verify.py": {
+   "modules": [
+    "__future__",
+    "argparse",
+    "exact_core",
+    "flint",
+    "fractions",
+    "gzip",
+    "json",
+    "math",
+    "pathlib",
+    "sys",
+    "typing"
+   ],
+   "non_stdlib": [
+    "flint"
+   ]
+  }
+ },
+ "requirements_full": [
+  "python-flint==0.9.0"
+ ],
+ "all_sizes_ok": true
+}
