@@ -1,0 +1,81 @@
+# Pre-registration: the claim "lim inf (p_{n+1} - p_n) <= 240" (Hanxin Zhang; discovery credited to GPT 5.6 Sol)
+# Written 2026-11-08 by Nervous Machine (Heidi Bennett; Claude Code as the operating agent), BEFORE fetching the
+# certificate repository's files, before reading its code, and before running anything. Inputs used so far: the
+# repository's README as rendered on GitHub, the GitHub API's commit list and file tree, and the Zenodo record's
+# metadata. Changes after this point go in an amendment block appended by tools/prereg.py, never in this body.
+
+by: "Nervous Machine (Heidi Bennett; Claude Code as the operating agent)"
+mission: "prime-gaps-240-zhang-2026-11"
+cycle: 1
+
+claim:
+  statement: "Infinitely many pairs of consecutive primes differ by at most 240 (H1 <= 240); an admissible 49-tuple of diameter 240 completes the proof."
+  paper: "H. Zhang, A bound of 240 for gaps between primes, Zenodo 10.5281/zenodo.22135842, published 2026-08-28, CC-BY-4.0; file h1_240.pdf, 444338 bytes, md5 c0ce97edf07ce1a10ca981e32c73677b (from the Zenodo API)"
+  repository: "github.com/hanxinzhang/prime-bound"
+  commit: "2319570b0056676537190512f20af80d3a7b72a7"   # head of main, 2026-09-02T01:36:47Z; first commit 7a606fc8 'New repo' 2026-08-28
+  tree: "eced14cc4315457488af6b3d2cc4debffa30e038"
+  files_from_api:   # size and git blob id; sha256 is recorded at fetch in checks/manifest.json
+    - {path: README.md, size: 7308, blob: 595008be6fce}
+    - {path: data/certificate.json, size: 295566, blob: 29150a9cf219}
+    - {path: data/event_cells.json, size: 1421597, blob: 14f0a7fe5de2}
+    - {path: data/source_polynomial.json, size: 537094, blob: e6e8a06f195a}
+    - {path: data/stored_marginal.json, size: 614291, blob: 0f4dca8a7f43}
+    - {path: requirements-full.txt, size: 20, blob: 388b3abf3e5e}
+    - {path: src/exact_core.py, size: 14802, blob: 7c66a916b130}
+    - {path: src/full_verify.py, size: 19234, blob: c3ac562ebd04}
+    - {path: verify.py, size: 16985, blob: 44c9e5132a58}
+  licence: "none stated in the repository (no LICENSE file, no licence in About). Files are therefore NOT vendored here; this mission records hashes and a fetch script. The paper is CC-BY-4.0."
+
+what_this_claim_is_not: >
+  Unlike openai/PrimeGaps186, there is no Lean development. The analytic argument (the nested distribution theorem
+  from three estimates of Maynard, the squarefree truncated Buchstab identity, three Siegel-Walfisz inheritance
+  lemmas, a rough Type-I estimate, two reductions, and Lemma 4.2 on first-fit failures) is a written proof in the
+  paper, which the README says is "not part of the computer verification". The certificate checks the finite,
+  exact-arithmetic part: a retained-marginal inequality, support identities, thirteen exponent inequalities, rank
+  coverage, and the final admissible 49-tuple.
+
+steps:
+  S1: {name: "the 49-tuple is admissible and has diameter 240", check: computation, by: nervous-machine}
+  S2: {name: "Maynard's three distribution estimates for primes to large moduli", check: literature}
+  S3: {name: "the nested distribution theorem combining them, and the analytic lemmas (paper sections as listed above)", check: paper-only, note: "no formal deduction exists; stays open until refereed or formalized"}
+  S4: {name: "exact finite certificate: retained-marginal inequality, support identities, thirteen exponent inequalities, rank coverage (quick check: stored norms and event integrals trusted)", check: rerun-of-certificate}
+  S5: {name: "full exact reconstruction: source norm, exact marginal, marginal square, 45 rank profiles, every event integral recomputed without cache", check: rerun-of-certificate}
+  S6: {name: "the stored marginal's rounding-error bound is applied correctly", check: paper-plus-code, note: "a reader's check; not settled by a rerun"}
+  S7: {name: "the paper's statement of what the certificate establishes matches what verify.py checks", check: human-semantic-review}
+
+standing_rule:
+  certified: "a deterministic check run by Nervous Machine under this rule, or a formal or exact check rerun by a party independent of the author"
+  accepted: "a published, refereed theorem; or a check reported by the author's own program"
+  refuted: "a counterexample, a failed check, or a published objection the author has not answered"
+  open: "an input no independent party has checked; it becomes a gap with what would close it"
+  corroboration: "spot checks support a literature input but never raise its standing"
+
+claim_rule: >
+  The whole claim is called verified only if every step is certified or accepted from refereed literature. Here S3
+  is a paper-only analytic argument with no formal deduction, so the claim is conditionally supported at best until
+  the paper is refereed or the argument is formalized, whatever the certificate reruns show.
+
+checks:
+  C1: "Fetch the nine files at the pinned commit into an isolated directory; record sha256 of each (checks/manifest.json); confirm sizes match files_from_api; confirm by static inspection (grep of import lines, no execution) that verify.py and src/exact_core.py import only Python standard-library modules in the quick path."
+  C2: "In the Lima VM (not on the host), run `python3 -B -I -S verify.py` at the pinned commit with CPython 3.10+; pass if the final line is exactly `admissible 49-tuple diameter: 240` and the exit code is 0. Record wall time."
+  C3: "Locate the 49-tuple in the certificate data (or, failing that, in the paper) and check it with Nervous Machine's own code (checks/admissible.py, written for this mission): 49 distinct integers, max - min = 240, and for every prime p <= 49 the residues mod p miss at least one class. Pass if all hold."
+  C4: "In the VM, install requirements-full.txt into a fresh virtual environment and run `python3 -B verify.py --full`; pass if the final line is `full exact reconstruction: PASS` and exit code 0. Record wall time, peak memory, and the pinned versions of the installed packages."
+  C5: "Download h1_240.pdf from Zenodo into an isolated directory; pass if md5 equals c0ce97edf07ce1a10ca981e32c73677b; record sha256."
+  not_run: "No check of the analytic argument (S3). No semantic read (S7); a definitional trace cannot be built because there is no formal statement to trace, so S7's aid would be a statement-by-statement map from the paper's Theorem to verify.py's checks, which is a later cycle."
+
+predictions:
+  C1: "pass; stdlib only"
+  C2: "pass"
+  C3: "pass"
+  C4: "pass; wall time unknown, predicted under four hours on 20 cores"
+  C5: "pass"
+
+results_files:
+  - checks/manifest.json
+  - checks/results.json
+  - checks/logs/
+
+standing_consequences:
+  if_all_pass: "S1 certified (C3); S4 and S5 certified (C2, C4: exact checks rerun independently); S2 accepted (literature); S3 open (gap: refereeing or formalization); S6 and S7 open (gaps: a reader)."
+  if_C2_or_C4_fails: "the failing step is refuted pending the author's answer; recorded as an anomaly, urgency daily."
+  any_outcome: "the claim stays conditionally supported; the words verified, proved and theorem are not used for it by this mission."
