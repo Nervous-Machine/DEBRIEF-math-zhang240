@@ -79,7 +79,7 @@ background = [
     doc(term="Maynard's distribution estimates", also_called=["distribution estimates for primes to large moduli"], spoken="Results about how evenly primes are spread among remainders modulo large numbers. Proofs of bounded gaps need these as fuel; the more of the range they cover, the smaller the gap that can be proved.", source="general"),
 ]
 n_cert = sum(f["standing"]["status"] == "certified" for f in findings)
-mission = doc(title="The claim that primes come within 240 of each other infinitely often (Zhang)", kind="audit", protocol_version="0.1.0", claim_rule_met=False, pods=[POD], began="2026-11-08", status="active",
+mission = doc(title="The claim that primes come within 240 of each other infinitely often (Zhang)", kind="audit", protocol_version="0.1.0", claim_rule_met=False, label="Prime gaps ≤ 240 (Zhang)", area="Number theory: gaps between primes", rests_on="an exact arithmetic certificate (Python) and a paper", pods=[POD], began="2026-11-08", status="active",
               record_quality="reconstructed", record_note="Replayed from the public record, dated by first public posting; Nervous Machine's own checks were registered before any file was fetched.",
               record_limits=["The certificate was rerun by Nervous Machine on one machine; no second independent party has reported a rerun.", "The analytic argument was not read by Nervous Machine."],
               scope_limits=["Nervous Machine keeps score of the checks; it does not check the mathematics line by line.", "Public record through November eighth, 2026."],

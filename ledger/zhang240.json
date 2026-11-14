@@ -3,7 +3,7 @@
   {
    "schema_version": "nm-debrief-v1",
    "created_by": "DEBRIEF-math-zhang240/build_ledger.py",
-   "created_at": "2026-11-08T21:20:27Z",
+   "created_at": "2026-11-14T20:28:05Z",
    "mission_id": "prime-gaps-240-zhang-2026-11",
    "pod": "DEBRIEF-math-zhang240",
    "provenance": {
@@ -34,6 +34,9 @@
    "kind": "audit",
    "protocol_version": "0.1.0",
    "claim_rule_met": false,
+   "label": "Prime gaps ≤ 240 (Zhang)",
+   "area": "Number theory: gaps between primes",
+   "rests_on": "an exact arithmetic certificate (Python) and a paper",
    "pods": [
     "DEBRIEF-math-zhang240"
    ],
@@ -105,7 +108,7 @@
   {
    "schema_version": "nm-debrief-v1",
    "created_by": "DEBRIEF-math-zhang240/build_ledger.py",
-   "created_at": "2026-11-08T21:20:27Z",
+   "created_at": "2026-11-14T20:28:05Z",
    "mission_id": "prime-gaps-240-zhang-2026-11",
    "pod": "DEBRIEF-math-zhang240",
    "provenance": {
@@ -163,7 +166,7 @@
   {
    "schema_version": "nm-debrief-v1",
    "created_by": "DEBRIEF-math-zhang240/build_ledger.py",
-   "created_at": "2026-11-08T21:20:27Z",
+   "created_at": "2026-11-14T20:28:05Z",
    "mission_id": "prime-gaps-240-zhang-2026-11",
    "pod": "DEBRIEF-math-zhang240",
    "provenance": {
@@ -250,7 +253,7 @@
   {
    "schema_version": "nm-debrief-v1",
    "created_by": "DEBRIEF-math-zhang240/build_ledger.py",
-   "created_at": "2026-11-08T21:20:27Z",
+   "created_at": "2026-11-14T20:28:05Z",
    "mission_id": "prime-gaps-240-zhang-2026-11",
    "pod": "DEBRIEF-math-zhang240",
    "provenance": {
@@ -324,7 +327,7 @@
   {
    "schema_version": "nm-debrief-v1",
    "created_by": "DEBRIEF-math-zhang240/build_ledger.py",
-   "created_at": "2026-11-08T21:20:27Z",
+   "created_at": "2026-11-14T20:28:05Z",
    "mission_id": "prime-gaps-240-zhang-2026-11",
    "pod": "DEBRIEF-math-zhang240",
    "provenance": {
@@ -382,7 +385,7 @@
   {
    "schema_version": "nm-debrief-v1",
    "created_by": "DEBRIEF-math-zhang240/build_ledger.py",
-   "created_at": "2026-11-08T21:20:27Z",
+   "created_at": "2026-11-14T20:28:05Z",
    "mission_id": "prime-gaps-240-zhang-2026-11",
    "pod": "DEBRIEF-math-zhang240",
    "provenance": {
@@ -442,7 +445,7 @@
   {
    "schema_version": "nm-debrief-v1",
    "created_by": "DEBRIEF-math-zhang240/build_ledger.py",
-   "created_at": "2026-11-08T21:20:27Z",
+   "created_at": "2026-11-14T20:28:05Z",
    "mission_id": "prime-gaps-240-zhang-2026-11",
    "pod": "DEBRIEF-math-zhang240",
    "provenance": {
@@ -497,7 +500,7 @@
   {
    "schema_version": "nm-debrief-v1",
    "created_by": "DEBRIEF-math-zhang240/build_ledger.py",
-   "created_at": "2026-11-08T21:20:27Z",
+   "created_at": "2026-11-14T20:28:05Z",
    "mission_id": "prime-gaps-240-zhang-2026-11",
    "pod": "DEBRIEF-math-zhang240",
    "provenance": {
@@ -567,7 +570,7 @@
   {
    "schema_version": "nm-debrief-v1",
    "created_by": "DEBRIEF-math-zhang240/build_ledger.py",
-   "created_at": "2026-11-08T21:20:27Z",
+   "created_at": "2026-11-14T20:28:05Z",
    "mission_id": "prime-gaps-240-zhang-2026-11",
    "pod": "DEBRIEF-math-zhang240",
    "provenance": {
@@ -625,7 +628,7 @@
   {
    "schema_version": "nm-debrief-v1",
    "created_by": "DEBRIEF-math-zhang240/build_ledger.py",
-   "created_at": "2026-11-08T21:20:27Z",
+   "created_at": "2026-11-14T20:28:05Z",
    "mission_id": "prime-gaps-240-zhang-2026-11",
    "pod": "DEBRIEF-math-zhang240",
    "provenance": {
@@ -686,7 +689,7 @@
   {
    "schema_version": "nm-debrief-v1",
    "created_by": "DEBRIEF-math-zhang240/build_ledger.py",
-   "created_at": "2026-11-08T21:20:27Z",
+   "created_at": "2026-11-14T20:28:05Z",
    "mission_id": "prime-gaps-240-zhang-2026-11",
    "pod": "DEBRIEF-math-zhang240",
    "provenance": {
@@ -723,7 +726,7 @@
   {
    "schema_version": "nm-debrief-v1",
    "created_by": "DEBRIEF-math-zhang240/build_ledger.py",
-   "created_at": "2026-11-08T21:20:27Z",
+   "created_at": "2026-11-14T20:28:05Z",
    "mission_id": "prime-gaps-240-zhang-2026-11",
    "pod": "DEBRIEF-math-zhang240",
    "provenance": {
@@ -760,7 +763,7 @@
   {
    "schema_version": "nm-debrief-v1",
    "created_by": "DEBRIEF-math-zhang240/build_ledger.py",
-   "created_at": "2026-11-08T21:20:27Z",
+   "created_at": "2026-11-14T20:28:05Z",
    "mission_id": "prime-gaps-240-zhang-2026-11",
    "pod": "DEBRIEF-math-zhang240",
    "provenance": {
