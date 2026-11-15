@@ -5,6 +5,8 @@ of Hanxin Zhang's exact certificate for the claim that infinitely many pairs of 
 most 240 (paper: Zenodo 10.5281/zenodo.22135842, 28 August 2026, discovery credited to GPT 5.6 Sol; certificate:
 github.com/hanxinzhang/prime-bound). The ledger is `ledger/zhang240.json`.
 
+This claim is on the public claims board, https://math-board.nervousmachine.com, which shows its stage, who has contributed, and what it needs next.
+
 **Standing.** See `SCORECARD.md`, rendered from the ledger. The claim is conditionally supported: the finite
 certificate reproduces on an independent machine, and the analytic argument has neither a formal deduction nor a
 referee report. This record does not call the bound a theorem.
