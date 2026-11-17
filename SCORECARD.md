@@ -23,6 +23,7 @@ Record quality: reconstructed. Replayed from the public record, dated by first p
 |---|---|---|---|---|---|
 | 0 | 2026-08-28 |  | replay | no | admitted |
 | 1 | 2026-11-08 | Nervous Machine (Heidi Bennett; Claude Code as the operating agent) | rerun | yes | confirmed |
+| external-2026-11-17 | 2026-11-17 | None | replay | no | admitted |
 
 ## Gaps, in the order that would settle things fastest
 
