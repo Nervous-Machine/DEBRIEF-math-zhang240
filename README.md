@@ -7,9 +7,22 @@ github.com/hanxinzhang/prime-bound). The ledger is `ledger/zhang240.json`.
 
 This claim is on the public claims board, https://math-board.nervousmachine.com, which shows its stage, who has contributed, and what it needs next.
 
-**Standing.** See `SCORECARD.md`, rendered from the ledger. The claim is conditionally supported: the finite
-certificate reproduces on an independent machine, and the analytic argument has neither a formal deduction nor a
-referee report. This record does not call the bound a theorem.
+<!-- standing:begin -->
+**Standing, 17 Nov 2026.** Stage: Checks rerun. Needs next: The analytic argument has no formal deduction and no referee report ([what would close it](ASKS.md)).
+
+| certified | accepted | refuted | open gaps | cycles filed | last cycle |
+|---|---|---|---|---|---|
+| 3 | 1 | 0 | 3 | 1 | 17 Nov 2026 |
+
+| | |
+|---|---|
+| checked by machine | Nervous Machine |
+| read by a person | nobody yet; no reading guide yet |
+| elsewhere | — |
+| related | [Prime gaps ≤ 186 (OpenAI)](https://github.com/Nervous-Machine/DEBRIEF-math-primegaps): the same problem, weaker bound (240 against 186) |
+
+Rendered from `ledger/` at regeneration; the full record is `SCORECARD.md`, what is owed is `ASKS.md`. Standing words: 3 certified · 1 accepted.
+<!-- standing:end -->
 
 ## What was done, in order
 
