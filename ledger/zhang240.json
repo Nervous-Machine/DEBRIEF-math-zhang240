@@ -101,6 +101,32 @@
      "kind": "checks",
      "ref": "checks/results.json, checks/logs/"
     }
+   ],
+   "tooling": [
+    {
+     "by": "Hanxin Zhang",
+     "tier": "unknown",
+     "basis": "stated by the claimant: the discovery is credited to GPT-5.6 Sol; the tier is not stated",
+     "models": [
+      {
+       "model": "GPT-5.6 Sol",
+       "id": "gpt-5-6-sol",
+       "vendor": "OpenAI",
+       "public_release": "2026-07-09",
+       "tiers_at_release": [
+        "subscription",
+        "subscription-pro",
+        "api"
+       ],
+       "public_at_the_time": "yes"
+      }
+     ],
+     "work": {
+      "to": "2026-08-28"
+     },
+     "duration": "not stated",
+     "compute": "not stated"
+    }
    ]
   }
  ],

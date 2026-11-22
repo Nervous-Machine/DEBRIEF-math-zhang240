@@ -1,0 +1,11 @@
+# Tooling disclosure for this record's claim(s): which models, at what access tier, over what time, as stated by the
+# claimant or inferred from the public record (the basis says which). Read by DEBRIEF/tools/tooling.py into the ledger.
+# Tier words and model release dates: DEBRIEF/tools/models.yaml. Nothing here is a standing.
+claims:
+- by: Hanxin Zhang
+  models:
+  - gpt-5-6-sol
+  tier: unknown
+  basis: 'stated by the claimant: the discovery is credited to GPT-5.6 Sol; the tier is not stated'
+  work:
+    to: '2026-08-28'

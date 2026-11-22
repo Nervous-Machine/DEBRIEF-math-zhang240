@@ -20,6 +20,7 @@ This claim is on the public claims board, https://math-board.nervousmachine.com,
 | read by a person | nobody yet; no reading guide yet |
 | elsewhere | — |
 | related | [Prime gaps ≤ 186 (OpenAI)](https://github.com/Nervous-Machine/DEBRIEF-math-primegaps): the same problem, weaker bound (240 against 186) |
+| tooling | GPT-5.6 Sol · tier: unknown (stated by the claimant: the discovery is credited to GPT-5.6 Sol; the tier is not stated) |
 
 Rendered from `ledger/` at regeneration; the full record is `SCORECARD.md`, what is owed is `ASKS.md`. Standing words: 3 certified · 1 accepted.
 <!-- standing:end -->
